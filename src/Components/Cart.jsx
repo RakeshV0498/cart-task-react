@@ -65,7 +65,7 @@ const Cart = () => {
                       type="button"
                       variant="light"
                       onClick={() =>
-                        dispatch({ type: "Remove From Cart", payload: product })
+                        dispatch({ type: "Remove_From_Cart", payload: product })
                       }
                     >
                       <AiFillDelete fontSize="20px" />
