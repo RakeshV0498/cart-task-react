@@ -19,6 +19,33 @@
   border-radius: 9px;
 }
 
+.cart-container {
+  display: flex;
+  width: 78%;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.filters {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin: 10px;
+  height: 86vh;
+}
+
+.filters > span {
+  padding-bottom: 20px;
+}
+
+.title {
+  font-size: 3rem;
+}
+
 .card img {
   width: 300px !important;
   height: 300px;
@@ -46,4 +73,8 @@
   flex: 1;
   padding: 0 10px;
   flex-direction: column;
+}
+
+.summary {
+  width: 30%;
 }
