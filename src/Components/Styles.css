@@ -1,0 +1,17 @@
+.home {
+  display: flex;
+}
+
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
+
+.card img {
+  width: 300px !important;
+  height: 300px;
+  align-self: center;
+  object-fit: contain;
+}
