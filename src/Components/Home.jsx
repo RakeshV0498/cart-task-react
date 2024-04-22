@@ -6,7 +6,7 @@ const Home = () => {
   const {
     state: { products },
   } = CartState();
-  console.log(products);
+
   return (
     <>
       <article className="home">

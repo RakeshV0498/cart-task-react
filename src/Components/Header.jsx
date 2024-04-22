@@ -17,7 +17,7 @@ const Header = () => {
     state: { cart },
     dispatch,
   } = CartState();
-  console.log(cart);
+
   return (
     <>
       <Navbar bg="dark" data-bs-theme="dark">
@@ -26,10 +26,10 @@ const Header = () => {
             <Link to="/">MyShop Cart</Link>
           </Navbar.Brand>
           <Nav>
-            <Dropdown alignright>
+            <Dropdown alignright="true">
               <DropdownToggle variant="primary">
                 <FaShoppingCart color="white" fontSize="25px" />
-                <Badge bg="none">{cart.length}</Badge>
+                <Badge bg="none">View Cart {cart.length}</Badge>
               </DropdownToggle>
               <Dropdown.Menu style={{ minWidth: 325 }}>
                 {cart.length > 0 ? (
