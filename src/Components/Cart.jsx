@@ -46,7 +46,7 @@ const Cart = () => {
                   </Col>
                   <Col md={2}>
                     <Form.Control
-                      as={"select"}
+                      as="select"
                       value={product.qty}
                       onChange={(e) =>
                         dispatch({
