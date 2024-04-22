@@ -6,8 +6,6 @@ import { cartReducer } from "./Reducer";
 const cartContext = createContext();
 
 const Context = ({ children }) => {
-  console.log(products);
-
   const [state, dispatch] = useReducer(cartReducer, {
     products: products,
     cart: [],
